@@ -20,9 +20,9 @@ const Hero = () => {
         <nav className='nav-hero' >
         <div className='services-container'>
                 <ul className='nav-list'>
-                    <li className='list-item'>Marketing</li>
-                    <li className='list-item'>Branding</li>
-                    <li className='list-item'>Web</li>
+                    <li className='list-item-menu'>Marketing</li>
+                    <li className='list-item-menu'>Branding</li>
+                    <li className='list-item-menu'>Web</li>
                     <li className='list-item'>Proyectos</li>
                     <li className='list-item'>Contacto</li>
                 </ul>
@@ -31,9 +31,10 @@ const Hero = () => {
    
     </header>
     <section className='section-hero'>
-        <h1 className='hero-slogan' data-aos="fade-up"
+        <h1 className='hero-slogan' data-aos="fade-down"
      data-aos-anchor-placement="top-bottom">Si no eres diferente,<br/>eres indiferente</h1>
-<div className='hero-description'>
+<div className='hero-description' data-aos="fade-up"
+     data-aos-anchor-placement="center-bottom">
 <button className='hero-button'>
     QUIERO VER MÁS
      </button>
