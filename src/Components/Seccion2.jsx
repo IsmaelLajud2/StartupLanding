@@ -3,6 +3,7 @@ import '../Styles/Seccion2Styles.css'
 import Aos from 'aos'
 import 'aos/dist/aos.css'
 import AnimatedNumber from './AnimatedNumber'
+import { ScrollParallax } from 'react-just-parallax'
 
 
 
@@ -60,7 +61,11 @@ const Seccion2 = () => {
         <section className='section-description'>
           <aside className='aside-left'>
     <AnimatedNumber className="animated-number"></AnimatedNumber>
-       
+    <div className='wrapper'>
+  <ScrollParallax >
+  <img src="Images/LogoStartup.png" className='logo-parallax' />
+  </ScrollParallax>
+</div>
           </aside>
         <aside className='aside-right'>
             <div className='div-box' data-aos="fade-up"
