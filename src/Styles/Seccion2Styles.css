@@ -2,7 +2,7 @@
     background-color: #090909;
     color: white;
     width: 100%;
-    height: 100vh;
+    height: 190vh;
     overflow: hidden;
 }
 
@@ -10,7 +10,7 @@
     display: flex;
     justify-content: center;
     flex-direction: row;
-    padding: 15px 25px 15px 25px
+    padding: 20px 25px 15px 25px
 }
 
 .branding-list {
@@ -18,8 +18,7 @@
     flex-direction: row;
     justify-content: space-between;
     width: 100%;
-    max-width: 1400px;
-    list-style-type: circle;
+    list-style-type: none;
 }
 
 .branding-item {
@@ -29,6 +28,7 @@
     font-family: 'Poppins', sans-serif;
     white-space: nowrap;
     transition: color 0.3s ease;
+    padding: 0 10px;
 
 }
 
@@ -41,7 +41,115 @@
     content: '•';
     font-size: 20px;
     color: rgb(153 153 153);
-
     line-height: 0;
     margin: 10px 10px 0 10px
+}
+
+.section-info {
+    display: flex;
+    width: 100%;
+    padding: 100px 0 100px 0;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+.h1-title {
+    font-size: 15px;
+    font-weight: 100;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 15px;
+}
+
+.h3-info {
+    font-size: 35px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    padding-bottom: 15px;
+}
+
+.p-info {
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.section-description {
+    display: flex;
+    /* Alinea los hijos en una fila */
+    justify-content: space-between;
+    /* Separa los elementos (AnimatedNumber e info) */
+    align-items: flex-start;
+    /* Alinea los elementos al principio verticalmente */
+    padding: 50px;
+}
+
+.aside-left {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.animated-number {
+    font-size: 70px;
+    text-align: "left";
+    display: "flex";
+    justify-content: "flex-start";
+    font-weight: "500";
+    margin-top: 20%
+}
+
+.p-left {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.aside-right {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-right: 15rem;
+
+}
+
+.div-box {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    border-bottom: 1px dotted grey;
+    padding: 20px 20px 20px 20px;
+
+}
+
+.h5-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    padding-bottom: 15px;
+}
+
+.p-description {
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.div-number {
+    position: absolute;
+    right: -80px;
+    z-index: -1;
+}
+
+.span-number {
+    font-size: 60px;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    color: transparent;
+    -webkit-text-stroke: 1px #949494
 }

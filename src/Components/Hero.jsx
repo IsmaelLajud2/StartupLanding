@@ -1,39 +1,58 @@
-import { useEffect } from 'react'
-import Aos from 'aos'
+
 import 'aos/dist/aos.css'
 
 import '../Styles/StylesHero.css'
 const Hero = () => {
 
-    useEffect(() => {
-        Aos.init({
-          duration: 1000
-        })
-      }, [])
+   
   return (
     <main className='hero-main'>
     <header className='header-hero'>
    
-        <div className='logo-container'>
+        <div className='logo-container' data-aos="fade-down"
+     data-aos-anchor-placement="top-bottom" data-aos-duration="1000">
 <img src="Images/LogoStartup.png" className='logo-hero' />
         </div>
         <nav className='nav-hero' >
         <div className='services-container'>
-                <ul className='nav-list'>
-                    <li className='list-item-menu'>Marketing</li>
-                    <li className='list-item-menu'>Branding</li>
-                    <li className='list-item-menu'>Web</li>
-                    <li className='list-item'>Proyectos</li>
-                    <li className='list-item'>Contacto</li>
+                <ul className='nav-list' >
+                 
+
+                
+                    <li className='list-item-menu'  data-aos="fade-right"
+     data-aos-offset="200"
+     data-aos-duration="1000"
+     data-aos-easing="ease-in-sine">Marketing</li>
+                    <li className='list-item-menu'data-aos="fade-right"
+     data-aos-offset="200"
+     data-aos-easing="ease-in-sine"
+     data-aos-duration="1000">Branding</li>
+                    <li className='list-item-menu' data-aos="fade-right"
+     data-aos-offset="200"
+     data-aos-easing="ease-in-sine"
+     data-aos-duration="1000">Web</li>
+                   
+                    <li className='list-item' data-aos="fade-left"
+     data-aos-offset="200"
+     data-aos-easing="ease-in-sine"
+     data-aos-duration="1000">Proyectos</li>
+                    <li className='list-item' data-aos="fade-left"
+     data-aos-offset="200"
+     data-aos-easing="ease-in-sine"
+     data-aos-duration="1000">Kit Digital</li>
+                    <li className='list-item' data-aos="fade-left"
+     data-aos-offset="200"
+     data-aos-easing="ease-in-sine"
+     data-aos-duration="1000">Contacto</li>
                 </ul>
         </div>
     </nav>
    
     </header>
     <section className='section-hero'>
-        <h1 className='hero-slogan' data-aos="fade-down"
+        <h1 className='hero-slogan' data-aos="fade-down" data-aos-duration="1500"
      data-aos-anchor-placement="top-bottom">Si no eres diferente,<br/>eres indiferente</h1>
-<div className='hero-description' data-aos="fade-up"
+<div className='hero-description' data-aos="fade-up" data-aos-duration="1500"
      data-aos-anchor-placement="center-bottom">
 <button className='hero-button'>
     QUIERO VER MÁS
