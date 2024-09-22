@@ -1,0 +1,19 @@
+{
+    "proyectos": [
+        {
+            "titulo": "Branding",
+            "descripcion": " El branding es mucho más que un logotipo. Es la esencia de tu marca, la historia que cuentas y la conexión que estableces con tus clientes. Te ayudamos a definir una identidad sólida y estratégica que destacará en un mar de competidores.",
+            "imagen": "Images/Cards/CardFondo1.png"
+        },
+        {
+            "titulo": "Web",
+            "descripcion": " Tu presencia online es crucial para el éxito de tu marca. Diseñamos webs funcionales y con impacto que reflejan la esencia de tu negocio y atraen a tu público objetivo. Te ayudaremos a construir una base sólida escalable en el mundo digital.",
+            "imagen": "Images/Cards/CardFondo2.png"
+        },
+        {
+            "titulo": "Marketing",
+            "descripcion": " Destaca en el ruido digital con nuestras campañas de publicidad. Llega a la audiencia ideal, en el lugar adecuado, en el momento oportuno, generando impacto. Creamos Funnels de Venta con altos Retornos de la Inversión Publicitaria.",
+            "imagen": "Images/Cards/CardFondo3.png"
+        }
+    ]
+}

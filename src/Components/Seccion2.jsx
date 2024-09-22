@@ -63,6 +63,7 @@ const Seccion2 = () => {
     <AnimatedNumber className="animated-number"></AnimatedNumber>
     <div className='wrapper'>
   <ScrollParallax >
+    
   <img src="Images/LogoStartup.png" className='logo-parallax' />
   </ScrollParallax>
 </div>

@@ -42,7 +42,7 @@ const AnimatedNumber = () => {
             return prevNumber; // Mantiene el número en 10
           }
         });
-      }, 200); // Incrementa el número cada 200 milisegundos
+      }, 300); // Incrementa el número cada 200 milisegundos
     }
 
     return () => clearInterval(interval); // Limpia el intervalo si el componente deja de ser visible
@@ -62,8 +62,9 @@ const AnimatedNumber = () => {
         paddingBottom: "20px",
       }}
     >
-      {number}
-      <p className="p-left">AÑOS <br /> DE <br /> TRAYECTORÍA</p>
+      <span className='counter-number'>{number}
+        </span>
+      <p className="p-left">AÑOS <br /> DE <br /> TRAYECTORIA</p>
     </div>
   );
 };
