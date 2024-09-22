@@ -6,12 +6,12 @@
     display: flex;
 
     flex-direction: column;
-    padding: 6rem 0 4rem;
+    padding: 60px 0 100px 0
 }
 
 .card-title {
     font-family: 'Montserrat', sans-serif;
-    font-size: 2rem;
+    font-size: 2.3rem;
     color: white;
     font-weight: 500;
 
@@ -19,7 +19,7 @@
 
 .parallax-wrapper {
     display: inline-block;
-    margin-left: 10px;
+    margin-left: 15px;
 
 }
 
@@ -31,7 +31,7 @@
 }
 
 .paralax-text {
-    font-size: 2rem;
+    font-size: 2.3rem;
 }
 
 .card-container {
@@ -41,6 +41,7 @@
     margin-top: 50px;
     gap: 20px;
     flex-wrap: wrap;
+    margin-bottom: 25px;
 
 }
 
@@ -54,6 +55,7 @@
     box-sizing: border-box;
     z-index: 1;
     transition: transform 0.8s ease-in-out;
+
 
 }
 
@@ -120,4 +122,37 @@
     color: white;
     margin-top: 5px;
     font-weight: 400;
+}
+
+.section-icon {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: row;
+    color: white;
+    border-bottom: 0.8px dotted rgb(119, 115, 115);
+    width: fit-content;
+    margin: 0 auto;
+    background-color: #090909;
+    transition: color 0.6s ease;
+}
+
+.section-icon:hover {
+    color: rgb(7 151 154);
+    cursor: pointer;
+}
+
+.span-icon {
+    margin-right: 8px;
+    margin-top: 6px;
+
+}
+
+
+
+.p-icon {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+
 }

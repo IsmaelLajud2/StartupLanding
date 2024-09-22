@@ -2,6 +2,7 @@ import '../SeccionCard/CardSectionStyles.css'
 import { ScrollParallax } from "react-just-parallax";
 import dataCard from '../SeccionCard/Cards.json'
 import CardProyect from './CardProyect';
+import EyeSvg from '../SVG/EyeSvg';
 const SectionProyects = () => {
 
 
@@ -35,6 +36,9 @@ const SectionProyects = () => {
 
         }
       </div>
+      <section className='section-icon'>
+        <span className='span-icon' ><EyeSvg></EyeSvg></span> <p className='p-icon'> Quiero ver más servicios</p>
+      </section>
     </section>
   );
 };
