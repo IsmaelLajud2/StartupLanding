@@ -15,7 +15,7 @@ const MarketingSection = () => {
                 </p>
 
                 <div>
-                    <button className='button-contacto'>Contactanos</button>
+                    <button className='button-contacto'>Contáctanos</button>
                 </div>
             </div>
             <div className='div-right'>

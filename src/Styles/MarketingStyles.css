@@ -56,16 +56,16 @@
     padding: 22px 40px 22px 40px;
     border-radius: 30px;
     border: none;
-    background-color: rgb(6 134 142);
+    background-color: #1d7175;
     color: white;
     font-family: 'Montserrat', sans-serif;
     font-size: 1rem;
     font-weight: 600;
-    transition: background-color 0.5s ease-in-out;
+    transition: background-color 0.5s ease;
     margin-left: 10px;
 }
 
 .button-contacto:hover {
-    background-color: #06b4c0;
+    background-color: rgba(32, 232, 232, 0.81);
     cursor: pointer;
 }
