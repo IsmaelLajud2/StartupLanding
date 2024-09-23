@@ -91,8 +91,8 @@
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    height: calc(100vh - 40px);
-    transform: translateX(-100px);
+    height: calc(100vh);
+    transform: translateX(-200px);
 
 
 }
@@ -103,19 +103,18 @@
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     margin-bottom: 30px;
+    margin-top: 30px;
+    padding-top: 20px;
     text-align: left;
-    font-weight: 450;
-
-
+    font-weight: 500;
 
 
 }
 
 .hero-description {
     display: flex;
-
     justify-content: flex-start;
-    ;
+
     align-items: center;
     text-align: center;
     flex-direction: row;
