@@ -35,19 +35,19 @@ const CarouselProyects = () => {
                 className="swiper_container"
             >
                 <SwiperSlide>
-                    <img src='Images/Cards/CardFondo1.png'></img>
+                    <img className='imagen-slider' src='Images/Cards/CardFondo1.png'></img>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src='Images/Cards/CardFondo2.png'></img>
+                    <img className='imagen-slider' src='Images/Cards/CardFondo2.png'></img>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src='Images/Cards/CardFondo3.png'></img>
+                    <img className='imagen-slider' src='Images/Cards/CardFondo3.png'></img>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src='Images/LogoStartup.png'></img>
+                    <img className='imagen-slider' src='Images/LogoStartup.png'></img>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src='Images/LogoStartup.png'></img>
+                    <img className='imagen-slider' src='Images/LogoStartup.png'></img>
                 </SwiperSlide>
                 <div className="slider-controler">
                     <div className="swiper-button-prev slider-arrow">
