@@ -1,4 +1,4 @@
-import '../Styles/MarketingStyles.css'
+import './Styles/MarketingStyles.css'
 import 'aos/dist/aos.css'
 const MarketingSection = () => {
     return (

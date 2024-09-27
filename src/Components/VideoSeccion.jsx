@@ -1,4 +1,4 @@
-import '../Styles/VideoStyles.css'
+import './Styles/VideoStyles.css'
 const VideoSeccion = () => {
     return (
         <div className='video-container' >

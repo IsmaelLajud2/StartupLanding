@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef } from 'react';
-import '../Styles/Seccion2Styles.css';
+import './Styles/Seccion2Styles.css'
 
 const AnimatedNumber = () => {
   const [number, setNumber] = useState(0); // Estado que controla el número
@@ -63,7 +63,7 @@ const AnimatedNumber = () => {
       }}
     >
       <span className='counter-number'>{number}
-        </span>
+      </span>
       <p className="p-left">AÑOS <br /> DE <br /> TRAYECTORIA</p>
     </div>
   );
