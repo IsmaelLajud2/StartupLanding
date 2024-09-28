@@ -1,0 +1,63 @@
+.section-presupuesto {
+    background-color: #090909;
+    color: white;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    width: 650px;
+}
+
+.p-title-presupuesto {
+    font-size: 1.1rem;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    text-align: left;
+    margin-bottom: 5px;
+
+}
+
+.h1-presupuesto {
+    font-size: 2rem;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 20px;
+
+}
+
+.p-contacto {
+    font-size: 1.0rem;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.button-presupuesto {
+    color: white;
+    background-color: #1d7175;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+    border: none;
+    padding: 30px 20px 30px 20px;
+    border-radius: 30px;
+    width: fit-content;
+    margin-top: 20px;
+    transition: background-color 0.5s ease-in-out;
+}
+
+.button-presupuesto:hover {
+    background-color: rgba(19, 199, 199, 0.81);
+    cursor: pointer;
+}

@@ -2,6 +2,7 @@
 import './App.css'
 import Hero from './Components/Hero'
 import MarketingSection from './Components/MarketingSection'
+import PresupuestoSection from './Components/PresupuestoSection'
 import Seccion2 from './Components/Seccion2'
 import SectionProyects from './Components/SeccionCard/SectionProyects'
 import ProyectsSection from './Components/SeccionProyects/ProyectsSection'
@@ -17,6 +18,7 @@ function App() {
       <SectionProyects />
       <MarketingSection />
       <ProyectsSection />
+      <PresupuestoSection />
     </>
   )
 }
