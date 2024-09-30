@@ -1,0 +1,24 @@
+{
+    "servicios": [
+        {
+            "title": "Diseño gráfico y branding",
+            "info": "Dale a tu negocio personalidad y aspecto atractivo con una identidad corporativa coherente con tus valores y filosofía. Diseñamos marcas, logotipos, tarjetas de visita, flyers, packaging, catálogos, cartelería, banners, todo lo que necesites para proyectar tu negocio al más allá con una marca profesional. El branding es la piedra angular de la comunicación de tus servicios o productos."
+        },
+        {
+            "title": "SEO optimizado",
+            "info": "Cada día es más necesario tener webs con una buena optimización SEO en los contenidos para tener mejor posicionamiento. Hay parte de tu competencia que no dispone en su web de una buena jerarquía en los textos y eso dificulta a Google su lectura. Como agencia de diseño web nos preocupamos por estructurar bien la información y aportar el mapa del sitio a los robots de Google para un mejor rastreo en los motores de búsqueda y aumentar el posicionamiento orgánico. Empleamos herramientas SEO que permiten optimizar al máximo la densidad de palabras clave, títulos, metaetiquetas sin llegar a la penalización de Google en tu posicionamiento."
+        },
+        {
+            "title": "Diseño Web a medida",
+            "info": "Creamos webs y tiendas online con un diseño único y personalizadas, cuidando tu imagen corporativa y adaptándola a las nuevas tendencias. Como agencia online, optimizamos la web para que llegue a tu público con más facilidad y sea compatible en cualquier dispositivo, con la mínima inversión posible. Lánzate al mundo digital con un buen aspecto."
+        },
+        {
+            "title": "Experiencia de Usuario",
+            "info": "En cualquiera de los trabajos que realizamos, tenemos muy presente el UX o User Experience. De nada vale tener una estrategia de marketing digital, si el contenido que generamos no es de calidad ni relevancia para nuestro público ideal. Nuestra finalidad como agencia es conseguir captar a la audiencia con una buena experiencia de usuario, teniendo en cuenta todos los factores posibles que pueden condicionarla."
+        },
+        {
+            "title": "Marketing",
+            "info": "¿Qué necesita tu empresa?. Mediante la consultoría de nuestra agencia de marketing desde Valencia, te proporcionamos las herramientas y soluciones de marketing más eficaces para conseguir aumentar las ventas. Además, trabajamos con Estudio Jurídico Sierra, que te ayudará en el aspecto legal y fiscal de tu negocio proporcionándote la seguridad jurídica que necesitas."
+        }
+    ]
+}
