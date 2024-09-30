@@ -1,6 +1,7 @@
 
 import './App.css'
 import AccordionSection from './Components/Accordion/AccordionSection'
+import Formulario from './Components/FormSection/Formulario'
 import Hero from './Components/Hero'
 import MarketingSection from './Components/MarketingSection'
 import PresupuestoSection from './Components/PresupuestoSection'
@@ -23,6 +24,7 @@ function App() {
       <PresupuestoSection />
       <ServiciosSection />
       <AccordionSection />
+      <Formulario />
     </>
   )
 }

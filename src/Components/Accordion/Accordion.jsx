@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import info from "../Accordion/AccordionInfo.json"
 import '../Styles/AccordionStyles.css'
-import { ChevronDown, ChevronUp } from 'react-feather'
+import { ChevronDown } from 'react-feather'
 const Accordion = () => {
 
     const [selected, setSelected] = useState(null)

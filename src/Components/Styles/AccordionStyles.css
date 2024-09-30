@@ -84,7 +84,6 @@
     max-height: 0;
     overflow: hidden;
     opacity: 0;
-    transition: max-height 0.6s ease, opacity 0.6s ease;
 
 }
 
@@ -92,7 +91,7 @@
     max-height: 1000px;
     padding: 5px 0 5px 0;
     opacity: 1;
-    transition: max-height 0.6s ease, opacity 0.6s ease;
+
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -101,9 +100,24 @@
 }
 
 .content-show {
-
+    padding: 5px 0 5px 0;
     max-height: max-content;
     opacity: 1;
-    transition: max-height 0.6s ease, opacity 0.6s ease;
+    transition: max-height 1s ease, opacity 1s ease;
+}
 
+@media (max-width: 768px) {
+    .accordion-sectioncontainer {
+        flex-direction: column;
+        justify-content: flex-start;
+        padding: 10px;
+    }
+
+    .wrapper {
+        width: 100%;
+    }
+
+    .accordion {
+        width: 100%;
+    }
 }

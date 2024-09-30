@@ -77,11 +77,8 @@
 
 .section-description {
     display: flex;
-    /* Alinea los hijos en una fila */
     justify-content: space-between;
-    /* Separa los elementos (AnimatedNumber e info) */
     align-items: flex-start;
-    /* Alinea los elementos al principio verticalmente */
     padding: 50px;
 }
 
@@ -119,6 +116,7 @@
     width: 100%;
     display: flex;
     justify-content: center;
+    text-align: left;
     flex-direction: column;
     position: relative;
     border-bottom: 1px dotted grey;
