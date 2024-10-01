@@ -27,9 +27,6 @@ const AnimatedNumber = () => {
       }
     };
   }, []);
-
-
-
   // Controla el incremento del número cuando el componente es visible
   useEffect(() => {
     let interval; // Definir la variable de intervalo
@@ -53,17 +50,7 @@ const AnimatedNumber = () => {
   return (
     <div
       ref={numberRef} // Referencia del elemento DOM
-      style={{
-        fontSize: "70px",
-        textAlign: "left",
-        display: "flex",
-        flexDirection: "column",
-        justifyContent: "flex-start",
-        fontWeight: "500",
-        marginTop: "20%",
-        paddingBottom: "20px",
-      }}
-    >
+      className='div-numbercontainer'>
       <span className='counter-number'>{number}
       </span>
       <p className="p-left">AÑOS <br /> DE <br /> TRAYECTORIA</p>

@@ -36,7 +36,8 @@ const Seccion2 = () => {
         <aside className='aside-info'>
           <div className='div-title' >
 
-            <h1 className='h1-title'>Agencia de Marketing Digital</h1>
+            <h1 className='h1-title' data-aos="fade-up"
+              data-aos-anchor-placement="center-bottom">Agencia de Marketing Digital</h1>
           </div>
           <div className='div-info'>
             <h3 className='h3-info' data-aos="fade-up"
