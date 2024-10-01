@@ -3,7 +3,7 @@ import './Styles/Seccion2Styles.css'
 
 const AnimatedNumber = () => {
   const [number, setNumber] = useState(0); // Estado que controla el número
-  const [isVisible, setIsVisible] = useState(false); // Estado que controla la visibilidad del componente
+  const [isVisible, setIsVisible] = useState(false);
   const numberRef = useRef(null); // Referencia al elemento del DOM
 
   // Intersection Observer para detectar cuándo el componente es visible
@@ -27,6 +27,8 @@ const AnimatedNumber = () => {
       }
     };
   }, []);
+
+
 
   // Controla el incremento del número cuando el componente es visible
   useEffect(() => {
