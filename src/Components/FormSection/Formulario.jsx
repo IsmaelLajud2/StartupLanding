@@ -14,11 +14,28 @@ const Formulario = () => {
                     <source src='Images/Videos/VideoMarketing.mp4' type="video/mp4" />
 
                 </video>
-                <form>
-                    <label >
-                        <input type="text" />
-                    </label>
-                </form>
+                <div className='form-container'>
+
+
+                    <form className='form-field'>
+
+                        <input className='input-name' type="text" required id='name' name='name' />
+                        <label htmlFor='name' className='name-label' >Nombre</label>
+
+
+                        <input className='input-email' type="email" required id="email" name='email' />
+                        <label htmlFor='email' className='email-label'>Email</label>
+
+                        <input className='input-number' type="text" required id="number" name='number' />
+                        <label htmlFor='number' className='number-label'>Numero de Telefono</label>
+
+                        <textarea className='text-tarea' name="" id=""></textarea>
+                        <label className='text-tarealabel'>Comentarios</label>
+
+
+
+                    </form>
+                </div>
             </div>
         </section>
     )

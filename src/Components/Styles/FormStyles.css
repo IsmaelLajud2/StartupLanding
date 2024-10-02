@@ -2,11 +2,11 @@
     background-color: #090909;
     color: white;
     width: 100%;
-    height: 110vh;
+    height: 100vh;
     display: flex;
     font-family: 'Montserrat', sans-serif;
     overflow: hidden;
-    align-items: center;
+
 
     flex-direction: column;
 
@@ -14,10 +14,10 @@
 
 .marketing-videocontainer {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-direction: row;
-    padding-top: 40px;
+    justify-content: space-around;
+    padding-top: 20px;
+
+
 }
 
 .form-text {
@@ -44,4 +44,97 @@
 
 .form-article {
     text-align: center;
+}
+
+.form-field {
+    position: relative;
+    margin-right: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.form-field input {
+    width: 500px;
+    height: 40px;
+
+    background-color: transparent;
+    color: rgb(253, 253, 253);
+    outline: none;
+    border: none;
+    border-bottom: 1px solid rgb(72, 70, 70);
+
+
+    margin-bottom: 35px;
+
+}
+
+.form-field label {
+    position: absolute;
+
+
+
+    transform: translateY(-50%);
+    color: rgb(72, 70, 70);
+    font-size: 19px;
+    pointer-events: none;
+    transition: .3s;
+}
+
+
+
+
+
+
+input:focus,
+input:valid {
+    border: 2px solid #1d7175;
+}
+
+
+input:focus+label,
+input:valid+label {
+    font-size: 16px;
+    padding: 0 15px;
+    background: #1d7175;
+    color: white;
+}
+
+
+.input-name+.name-label {
+    top: 20px;
+
+}
+
+
+.input-email+.email-label {
+    top: 95px;
+
+}
+
+
+.input-number+.number-label {
+    top: 170px;
+}
+
+
+.input-name:focus+.name-label,
+.input-name:valid+.name-label {
+    top: 0px;
+    left: 1%;
+}
+
+
+.input-email:focus+.email-label,
+.input-email:valid+.email-label {
+    top: 75px;
+    left: 1%;
+}
+
+
+.input-number:focus+.number-label,
+.input-number:valid+.number-label {
+    top: 150px;
+    left: 1%;
 }
