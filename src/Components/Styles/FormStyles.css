@@ -1,0 +1,47 @@
+.container-form {
+    background-color: #090909;
+    color: white;
+    width: 100%;
+    height: 110vh;
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    overflow: hidden;
+    align-items: center;
+
+    flex-direction: column;
+
+}
+
+.marketing-videocontainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    padding-top: 40px;
+}
+
+.form-text {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    max-width: 900px;
+    padding-bottom: 40px;
+    margin: 0 auto;
+
+
+}
+
+.form-p {
+    padding-bottom: 20px;
+    font-size: 0.75rem;
+}
+
+.h1-form {
+    padding-bottom: 20px;
+    font-size: 1.8rem;
+}
+
+.form-article {
+    text-align: center;
+}
