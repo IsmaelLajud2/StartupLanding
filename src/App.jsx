@@ -1,6 +1,7 @@
 
 import './App.css'
 import AccordionSection from './Components/Accordion/AccordionSection'
+import Footer from './Components/Footer/Footer'
 import Formulario from './Components/FormSection/Formulario'
 import Hero from './Components/Hero'
 import MarketingSection from './Components/MarketingSection'
@@ -25,6 +26,7 @@ function App() {
       <ServiciosSection />
       <AccordionSection />
       <Formulario />
+      <Footer />
     </>
   )
 }
