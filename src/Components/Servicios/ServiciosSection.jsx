@@ -8,8 +8,8 @@ const ServiciosSection = () => {
     return (
         <section className='servicios-container'>
             <div className='title-container'>
-                <p className='p-servicios' data-aos="fade-up" data-aos-duration="700" data-aos-anchor-placement="top-bottom" >NUESTROS SERVICIOS </p>
-                <h1 className='h1-proyectamos' data-aos="fade-down" data-aos-duration="700" >¿Proyectamos?</h1>
+                <p className='p-servicios' data-aos="fade-up" data-aos-duration="700" data-aos-anchor-placement="top-bottom" >NUESTROS SERVICIOS</p>
+                <h1 className='h1-proyectamos' data-aos="fade-down" data-aos-duration="700" >¿Hablamos?</h1>
             </div>
             <div className='container-section'>
 

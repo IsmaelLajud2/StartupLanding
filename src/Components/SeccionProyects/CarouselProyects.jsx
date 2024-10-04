@@ -35,19 +35,19 @@ const CarouselProyects = () => {
                 className="swiper_container"
             >
                 <SwiperSlide>
-                    <img className='imagen-slider' src='Images/Cards/CardFondo1.png'></img>
+                    <img className='imagen-slider' alt='carousel-photo' src='Images/Cards/CardFondo1.png'></img>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img className='imagen-slider' src='Images/Cards/CardFondo2.png'></img>
+                    <img className='imagen-slider' alt='carousel-photo' src='Images/CarouselPhoto.jpg'></img>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img className='imagen-slider' src='Images/Cards/CardFondo3.png'></img>
+                    <img className='imagen-slider' alt='carousel-photo' src='Images/Cards/CardFondo3.png'></img>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img className='imagen-slider' src='Images/LogoStartup.png'></img>
+                    <img className='imagen-slider' alt='carousel-photo' src='Images/Cards/CardFondo2.png'></img>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img className='imagen-slider' src='Images/LogoStartup.png'></img>
+                    <img className='imagen-slider' alt='carousel-photo' src='Images/Proyectosvarios.jpg'></img>
                 </SwiperSlide>
                 <div className="slider-controler">
                     <div className="swiper-button-prev slider-arrow">
@@ -59,7 +59,7 @@ const CarouselProyects = () => {
                     <div className="swiper-pagination"></div>
                 </div>
             </Swiper>
-        </div>
+        </div >
     );
 };
 
