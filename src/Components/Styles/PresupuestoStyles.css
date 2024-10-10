@@ -61,3 +61,21 @@
     background-color: rgba(19, 199, 199, 0.81);
     cursor: pointer;
 }
+
+.imagen-presupuesto {
+    animation: bounce 4s linear infinite
+}
+
+@keyframes bounce {
+    0% {
+        transform: translateY(-20px);
+    }
+
+    50% {
+        transform: translateY(20px);
+    }
+
+    100% {
+        transform: translateY(-20px);
+    }
+}

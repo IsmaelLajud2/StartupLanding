@@ -7,7 +7,7 @@ const PresupuestoSection = () => {
     return (
         <section className='section-presupuesto'>
             <div className='container-left' data-aos="fade-up" data-aos-duration="700" data-aos-anchor-placement="top-bottom" >
-                <img className='imagen' src='Images/LaptopFlotanteImagen.png'></img>
+                <img className='imagen-presupuesto' src='Images/LaptopFlotanteImagen.png'></img>
             </div>
             <div className='container-right'>
                 <p className='p-title-presupuesto' data-aos="fade-up" data-aos-duration="700" data-aos-anchor-placement="top-bottom" >Contactános sin compromiso para tu presupuesto de Marketing</p>
