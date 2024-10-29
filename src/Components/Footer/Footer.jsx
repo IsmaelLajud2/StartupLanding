@@ -1,10 +1,44 @@
-import React from 'react'
+import React, { useRef, useState } from 'react'
 import '../Styles/FooterStyles.css'
 import SocialMedia from './SocialMedia'
 import 'aos/dist/aos.css'
+import PhoneSvg from '../SVG/PhoneSVG'
+import EmailSvg from '../SVG/EmailSVG'
+import emailjs from '@emailjs/browser';
+
+
 
 
 const Footer = () => {
+
+
+
+    const [error, setError] = useState(false)
+    const [succes, setSucces] = useState(false)
+
+    const formRef = useRef()
+
+    const sendEmail = (e) => {
+        e.preventDefault();
+
+        emailjs
+            .sendForm('service_75l5m3e', 'template_waw8o0v', formRef.current, {
+                publicKey: 'qXKTq5sqRYqCPKa5i',
+            })
+            .then(
+                (result) => {
+                    setSucces(true)
+                },
+                (error) => {
+                    setError(true)
+                },
+            );
+    };
+
+
+
+
+
     return (
         <footer className='footer-section' >
             <div className='footer-logo' data-aos="fade-right"
@@ -38,8 +72,10 @@ const Footer = () => {
 
 
                 <ul className='service-list'><span className='ul-title'>CONTACTO</span>
-                    <li className='servicelist-item'>666-906-067</li>
-                    <li className='servicelist-item'>ismael.lajud65@gmail.com</li>
+                    <li className='servicelist-item' ><PhoneSvg style={{ paddingRight: "5px" }} /> 666-906-067</li>
+                    <li className='servicelist-item'><EmailSvg /><a className='a-email' style={{ paddingLeft: "5px" }} href='mailto:ismael.lajud65@gmail.com'>ismael.lajud65@gmail.com
+
+                    </a></li>
 
                 </ul>
 

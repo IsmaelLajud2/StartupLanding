@@ -1,8 +1,37 @@
-import React from 'react'
+import React, { useState, useRef } from 'react'
 import '../Styles/FormStyles.css'
 import 'aos/dist/aos.css'
+import emailjs from '@emailjs/browser';
 
 const Formulario = () => {
+
+
+
+
+    const [error, setError] = useState(false)
+    const [succes, setSucces] = useState(false)
+
+    const formRef = useRef()
+
+    const sendEmail = (e) => {
+        e.preventDefault();
+
+        emailjs
+            .sendForm('service_75l5m3e', 'template_waw8o0v', formRef.current, {
+                publicKey: 'qXKTq5sqRYqCPKa5i',
+            })
+            .then(
+                (result) => {
+                    setSucces(true)
+                },
+                (error) => {
+                    setError(true)
+                },
+            );
+    };
+
+
+
     return (
         <section className='container-form'>
             <div className='form-text' data-aos="fade-down"
@@ -22,7 +51,7 @@ const Formulario = () => {
                 >
 
 
-                    <form className='form-field'>
+                    <form ref={formRef} className='form-field' onSubmit={sendEmail}>
 
                         <input className='input-name' type="text" required id='name' name='name' placeholder='' />
                         <label htmlFor='name' className='name-label' >Nombre</label>
@@ -34,9 +63,11 @@ const Formulario = () => {
                         <input className='input-number' type="number" required id="number" name='number' placeholder='' />
                         <label htmlFor='number' className='number-label'>Numero de Telefono</label>
 
-                        <textarea className='text-tarea' name="comentarios" id="comentarios" placeholder=''></textarea>
+                        <textarea className='text-tarea' name="message" id="comentarios" placeholder=''></textarea>
                         <label htmlFor='comentarios' className='text-tarealabel'>Comentarios</label>
                         <button type='submit' className='form-button'>Enviar</button>
+                        {error && <div style={{ color: "red" }}>Error al enviar el correo</div>}
+                        {succes && <div style={{ color: "green" }}>¡Correo enviado exitosamente,Gracias por contactar!</div>}
                     </form>
 
                 </div>
